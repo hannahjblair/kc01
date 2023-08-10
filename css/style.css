@@ -109,6 +109,26 @@ body {
     
 }
 
+.contact-container {
+    display: block;
+    background: #29326a;
+    background-size: cover;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.contact-content {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 24px;
+    margin: 0 auto;
+} 
+
 .footer-container {
     background: #1b1b27;
     display: flex;
@@ -124,6 +144,7 @@ body {
     max-width: 1000px;
     text-align: center;
 }
+
 
 /* Links and Link Buttons
 ========================================================================== */
@@ -208,6 +229,14 @@ a:hover, a:active {
     border: 2px solid #74b44a;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
 
 
 /* Typography
@@ -261,6 +290,16 @@ section p {
     font-family: 'Cabin', sans-serif;
     line-height: 1.5;
 }
+
+.contact-content h2 {
+    color: white;
+}
+
+.contact-content p{
+    color: white;
+    font-size: 24px;
+}
+
 
 
 /* Lists and Navigation
